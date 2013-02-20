@@ -1,3 +1,10 @@
+/*
+ * gcc -o ocfs2_reflink ocfs2_reflink -g
+ * Create reflinked file via: ocfs2_reflink <source> <dest>
+ *
+ * Jie Liu <jeff.liu@oracle.com>
+ */
+
 #include <stdio.h>
 #include <stdint.h>
 #include <stdbool.h>
